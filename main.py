@@ -44,9 +44,5 @@ def main():
         pygame.display.flip()
         dt = clock.tick(60)/1000
        
-    print(f"Starting Asteroids with pygame version: {pygame.__version__}")
-    print (f"Screen width: {SCREEN_WIDTH}, \nScreen height: {SCREEN_HEIGHT}")
-
-
 if __name__ == "__main__":
     main()
